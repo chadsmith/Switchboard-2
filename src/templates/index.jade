@@ -1,0 +1,16 @@
+!!! 5
+html(lang:'en-us')
+	head
+		meta(charset:'utf-8')
+		title switchboard 2
+		link(rel:'stylesheet', href:'switchboard.css')
+	body
+		h1 #{number}
+		#queue
+			h2 Incoming calls
+		#plugins
+			h2 Plugins
+		script(src:'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+		script(src:'http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js')
+		script(src:'http://cdn.socket.io/stable/socket.io.js')
+		script(src:'switchboard.js')

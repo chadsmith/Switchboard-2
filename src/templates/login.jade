@@ -1,0 +1,19 @@
+!!! 5
+html(lang:'en-us')
+	head
+		meta(charset:'utf-8')
+		title switchboard 2
+		link(rel:'stylesheet', href:'switchboard.css')
+	body
+		h1 Switchboard 2
+		form(method:'post', action:'/login')
+			p
+				label Username
+				br
+				input(type:'text', name:'username')
+				br
+				label Password
+				br
+				input(type:'password', name:'password')
+			p
+				button Sign in

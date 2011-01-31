@@ -1,0 +1,69 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:regular,bold');
+body {
+	font: 14px/20px 'myriad pro',helvetica,arial,sans-serif;
+	color: #555;
+	text-align: center;
+}
+h1 {
+	font-family: 'Lato',arial,sans-serif;
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 0 -1px 4px #333;
+	text-transform: lowercase;
+}
+form {
+	line-height: 32px;
+}
+label {
+	font-size: 20px;
+	text-transform: lowercase;
+}
+input,
+button {
+	width: 400px;
+	line-height: 32px;
+	text-align: center;
+}
+button {
+	text-transform: lowercase;
+}
+#queue {
+	width: 40%;
+	float: left;
+}
+#queue div {
+	cursor: pointer;
+	background: #edf5f9 url(queue.png) no-repeat 84px 24px;
+}
+div div {
+	margin: 10px auto;
+	width: 180px;
+	height: 48px;
+	padding: 4px 6px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 0 1px 2px #999;
+	-webkit-box-shadow: 0 1px 2px #999;
+	box-shadow: 0 1px 2px #999;
+	color: #666;
+}
+#plugins{
+	width: 40%;
+	float: right;
+}
+#plugins div.operator {
+	background: #edffe4 url(operator.png) no-repeat 84px 24px;
+}
+#plugins div.plugin {
+	background: #ffefef;
+}
+#plugins div.hangup {
+	background: #ffefef url(hangup.png) no-repeat 84px 24px;
+}
+#plugins div.conference {
+	background: #ffefef url(conference.png) no-repeat 84px 24px;
+}
+#plugins div.voicemail {
+	background: #ffefef url(voicemail.png) no-repeat 84px 24px;
+}
