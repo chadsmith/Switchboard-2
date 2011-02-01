@@ -19,7 +19,7 @@ Features
 
 Demo
 -----------------------------
-A demo is available at [switchboard2.com:8080](http://switchboard2.com:8080) using u: demo, p: demo.
+A demo is available at [switchboard2.com](http://switchboard2.com) using u: demo, p: demo.
 Incoming calls instantly appear under "Incoming calls" and can be dragged to a user or applet on the right.
 
 Installation

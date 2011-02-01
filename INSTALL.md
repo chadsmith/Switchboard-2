@@ -1,5 +1,5 @@
 # Switchboard 2 Install Guide
-http://switchboard2.com:8080/
+http://switchboard2.com/
 
 Setting up Switchboard 2 is quick and easy if you're already familiar with Node.js. I recommend using NPM to install required modules.
 

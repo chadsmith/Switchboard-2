@@ -9,7 +9,7 @@ var
 	app = express.createServer(
 		express.bodyDecoder(),
 		express.cookieDecoder(),
-		express.session({secret: config.server.secret}),
+		express.session({ secret: config.server.secret }),
 		express.staticProvider(__dirname + '/public')
 	),
 	sockets = [],
@@ -90,7 +90,7 @@ app.get('/logout', function(req, res) {
 	res.redirect('/');
 });
 
-app.listen(config.server.port);
+app.listen(config.server.port, config.server.hostname);
 io = io.listen(app);
 
 io.on('connection', function(socket) {
